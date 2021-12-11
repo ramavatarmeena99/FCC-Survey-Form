@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:white;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+    115deg,
+    rgba(56, 56, 148, 0.8),
+    rgba(136, 136, 206, 0.7)
+  ),
+ 
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+
+}
+h1{
+    text-align:center;
+    margin-bottom:10px;
+    margin-top:40px;
+    font-weight: 500;
+    font-size:35px;
+    color:white;
+}
+h2{
+    text-align:center;
+    font-size:20px;
+    font-style:italic;
+    color:white;
+    font-weight: 300;
+}
+section{
+    background-color:black;
+    padding:30px;
+    border-radius:5px;
+    margin-left:300px;
+    margin-right:300px;
+    margin-top: 40px;
+    opacity:.6;
+}
+.inputBox{
+    color:white;
+    font-size:20px;
+    margin: 30px 0px 30px 0px;
+
+}
+.input{
+    width:100%;
+    height:40px;
+    padding:10px;
+    margin-top:10px;
+    
+    border-radius:5px;
+    border:1px solid black;
+    font-size:15px;
+}
+.yourchoice{
+    margin-top:10px;
+    margin-left:10px;
+}
+.youLike{
+    margin-right:10px;
+    margin-top:10px;
+
+    
+}
+.inputSuggestion{
+    width:100%;
+    height:150px;
+    border:1px solid black;
+    border-radius:5px;
+    font-size:15px;
+}
+.inputButton{
+    text-align:center;
+    width:100%;
+    height:40px;
+    background-color:white;
+    margin-top:100px;
+}
+.submit{
+    width:100%;
+    height:40px;
+    color:white;
+    cursor: pointer;
+    background-color:rgb(65, 15, 247);
+    font-size:20px;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    margin-top:30px;
+}
+
+.submit:hover{
+    background-color:rgb(44, 143, 209) ;
+    color: black;
+}
+
+
+.inputSuggestion{
+    margin-top:20px;
+}
